@@ -1,0 +1,9 @@
+{
+  "family": "Inter",
+  "version": "3.019;git-0a5106e0b",
+  "release": "https://github.com/rsms/inter/releases/tag/v3.19",
+  "download": "https://github.com/rsms/inter/releases/download/v3.19/Inter-3.19.zip",
+  "files": "Unmodified static OTF files from Inter Desktop/",
+  "license": "SIL Open Font License 1.1; see LICENSE.txt",
+  "selection": "Selected by direct comparison against the original Figma screenshots; Inter 4.001 produced different text metrics."
+}

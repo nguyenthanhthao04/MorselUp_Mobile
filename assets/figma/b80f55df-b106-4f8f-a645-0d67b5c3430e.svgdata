@@ -1,0 +1,10 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="52" height="48" viewBox="0 0 52 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Rectangle 89">
+<path d="M2 10C2 5.58172 5.58172 2 10 2H42C46.4183 2 50 5.58172 50 10V38C50 42.4183 46.4183 46 42 46H10C5.58172 46 2 42.4183 2 38V10Z" fill="#EAF1E6"/>
+<mask id="stroke0_0_12" maskUnits="userSpaceOnUse" x="0" y="0" width="52" height="48" fill="black">
+<rect fill="white" width="52" height="48"/>
+<path d="M2 10C2 5.58172 5.58172 2 10 2H42C46.4183 2 50 5.58172 50 10V38C50 42.4183 46.4183 46 42 46H10C5.58172 46 2 42.4183 2 38V10Z"/>
+</mask>
+<path d="M10 46H42C46.4183 46 50 42.4183 50 38V10C50 5.58172 46.4183 2 42 2H10C5.58172 2 2 5.58172 2 10V38C2 42.4183 5.58172 46 10 46Z" stroke-width="4" stroke="#245E45" mask="url(#stroke0_0_12)"/>
+</g>
+</svg>

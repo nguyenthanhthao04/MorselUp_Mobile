@@ -1,0 +1,282 @@
+{
+  "16:17052": {
+    "style": {
+      "top": 0,
+      "height": 40,
+      "textAlignVertical": "center"
+    }
+  },
+  "16:21468": {
+    "style": {
+      "left": 0,
+      "width": 342
+    },
+    "textStyle": {
+      "textAlign": "center"
+    }
+  },
+  "16:19501": {
+    "style": {
+      "width": 136.5
+    }
+  },
+  "16:19502": {
+    "style": {
+      "width": 34.5
+    }
+  },
+  "16:22414": {
+    "style": {
+      "width": "100%",
+      "left": 0
+    },
+    "textStyle": {
+      "textAlign": "center"
+    }
+  },
+  "16:22415": {
+    "style": {
+      "width": "100%",
+      "left": 0
+    },
+    "textStyle": {
+      "textAlign": "center"
+    }
+  },
+  "16:22417": {
+    "style": {
+      "width": "100%",
+      "left": 0
+    },
+    "textStyle": {
+      "textAlign": "center"
+    }
+  },
+  "16:22418": {
+    "style": {
+      "width": "100%",
+      "left": 0
+    },
+    "textStyle": {
+      "textAlign": "center"
+    }
+  },
+  "16:22420": {
+    "style": {
+      "width": "100%",
+      "left": 0
+    },
+    "textStyle": {
+      "textAlign": "center"
+    }
+  },
+  "16:22421": {
+    "style": {
+      "width": "100%",
+      "left": 0
+    },
+    "textStyle": {
+      "textAlign": "center"
+    }
+  },
+  "16:22423": {
+    "style": {
+      "width": "100%",
+      "left": 0
+    },
+    "textStyle": {
+      "textAlign": "center"
+    }
+  },
+  "16:22424": {
+    "style": {
+      "width": "100%",
+      "left": 0
+    },
+    "textStyle": {
+      "textAlign": "center"
+    }
+  },
+  "16:22435": {
+    "style": {
+      "padding": 18
+    }
+  },
+  "16:22438": {
+    "style": {
+      "padding": 12
+    }
+  },
+  "16:16045": {
+    "style": {
+      "position": "absolute",
+      "left": 111,
+      "top": 5
+    }
+  },
+  "16:16053": {
+    "style": {
+      "position": "absolute",
+      "left": 247,
+      "top": 5
+    }
+  },
+  "16:17377": {
+    "style": {
+      "position": "absolute",
+      "left": 111,
+      "top": 5
+    }
+  },
+  "16:17385": {
+    "style": {
+      "position": "absolute",
+      "left": 247,
+      "top": 5
+    }
+  },
+  "16:17731": {
+    "style": {
+      "position": "absolute",
+      "left": 111,
+      "top": 5
+    }
+  },
+  "16:17739": {
+    "style": {
+      "position": "absolute",
+      "left": 247,
+      "top": 5
+    }
+  },
+  "16:18078": {
+    "style": {
+      "position": "absolute",
+      "left": 111,
+      "top": 5
+    }
+  },
+  "16:18086": {
+    "style": {
+      "position": "absolute",
+      "left": 247,
+      "top": 5
+    }
+  },
+  "16:19797": {
+    "style": {
+      "position": "absolute",
+      "left": 111,
+      "top": 5
+    }
+  },
+  "16:19805": {
+    "style": {
+      "position": "absolute",
+      "left": 247,
+      "top": 5
+    }
+  },
+  "16:15750": {
+    "style": {
+      "position": "absolute",
+      "left": 111,
+      "top": 5
+    }
+  },
+  "16:15758": {
+    "style": {
+      "position": "absolute",
+      "left": 247,
+      "top": 5
+    }
+  },
+  "16:15884": {
+    "style": {
+      "position": "absolute",
+      "left": 111,
+      "top": 5
+    }
+  },
+  "16:15892": {
+    "style": {
+      "position": "absolute",
+      "left": 247,
+      "top": 5
+    }
+  },
+  "16:19329": {
+    "style": {
+      "height": 24
+    }
+  },
+  "16:19339": {
+    "style": {
+      "height": 24
+    }
+  },
+  "16:21707": {
+    "style": {
+      "borderWidth": 0,
+      "borderRadius": 8,
+      "backgroundColor": "white"
+    }
+  },
+  "16:21710": {
+    "style": {
+      "left": 0,
+      "width": 358
+    },
+    "textStyle": {
+      "textAlign": "center"
+    }
+  },
+  "16:13954": {
+    "style": {
+      "left": 71.996
+    }
+  },
+  "16:13953": {
+    "style": {
+      "left": 108.403958984375,
+      "width": 170,
+      "height": 17
+    }
+  },
+  "16:13959": {
+    "style": {
+      "left": 90.996
+    }
+  },
+  "16:13958": {
+    "style": {
+      "left": 127.403958984375,
+      "width": 131,
+      "height": 17
+    }
+  },
+  "16:13966": {
+    "style": {
+      "left": 86.996
+    }
+  },
+  "16:13968": {
+    "style": {
+      "left": 123.403958984375,
+      "width": 140,
+      "height": 17
+    }
+  },
+  "16:13971": {
+    "style": {
+      "left": 96.996
+    }
+  },
+  "16:13974": {
+    "style": {
+      "left": 133.40395898437498,
+      "width": 119,
+      "height": 17
+    }
+  }
+}

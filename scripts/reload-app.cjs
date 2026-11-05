@@ -1,0 +1,2 @@
+const WebSocket=require('ws');
+(async()=>{const base='http://127.0.0.1:8084';const pages=await(await fetch(base+'/json/list')).json();if(!pages.length)throw new Error('Open MorselUp in Expo Go first');const ws=new WebSocket(pages[0].webSocketDebuggerUrl,{origin:base});ws.on('open',()=>ws.send(JSON.stringify({id:1,method:'Page.reload',params:{}})));ws.on('message',raw=>{const m=JSON.parse(String(raw));if(m.id===1){console.log(m.error??'Reload requested');ws.close();}});setTimeout(()=>ws.close(),3000);})().catch(console.error);

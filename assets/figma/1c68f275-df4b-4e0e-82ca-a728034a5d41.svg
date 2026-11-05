@@ -1,0 +1,14 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="100" height="87" viewBox="0 0 100 87" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 8">
+<g id="Ellipse 2">
+<path d="M100 43.5C100 67.5244 77.6142 87 50 87C22.3858 87 0 67.5244 0 43.5C0 19.4756 22.3858 0 50 0C77.6142 0 100 19.4756 100 43.5Z" fill="#EAF1E6"/>
+<mask id="stroke0_0_26" fill="white">
+<path d="M100 43.5C100 67.5244 77.6142 87 50 87C22.3858 87 0 67.5244 0 43.5C0 19.4756 22.3858 0 50 0C77.6142 0 100 19.4756 100 43.5Z"/>
+</mask>
+<path d="M100 43.5C100 67.5244 77.6142 87 50 87C22.3858 87 0 67.5244 0 43.5C0 19.4756 22.3858 0 50 0C77.6142 0 100 19.4756 100 43.5Z" stroke-width="10" stroke="#245E45" mask="url(#stroke0_0_26)"/>
+</g>
+<rect id="Rectangle 15" x="65.3334" y="43.5" width="8.33333" height="7.25" rx="3.625" fill="#245E45"/>
+<rect id="Rectangle 16" x="46.1667" y="43.5" width="8.33333" height="7.25" rx="3.625" fill="#245E45"/>
+<rect id="Rectangle 17" x="27" y="43.5" width="8.33333" height="7.25" rx="3.625" fill="#245E45"/>
+</g>
+</svg>

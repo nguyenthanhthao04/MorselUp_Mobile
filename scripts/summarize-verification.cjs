@@ -1,0 +1,16 @@
+const fs=require('fs');
+const crypto=require('crypto');
+const report=JSON.parse(fs.readFileSync('verification/android-results.json','utf8'));
+const slots=JSON.parse(fs.readFileSync('verification/asset-slots.json','utf8'));
+const manifest=JSON.parse(fs.readFileSync('design/downloads.json','utf8'));
+const actual=new Map(report.results.flatMap(s=>s.geometry.map(g=>[s.id+':'+g.slot,g])));
+const missing=slots.filter(s=>!actual.has(s.screen+':'+s.slot));
+const invalid=[...actual.values()].filter(g=>!Number.isFinite(g.width)||!Number.isFinite(g.height)||((g.width<=0||g.height<=0)&&!(g.svg&&g.svgWidth>0&&g.svgHeight>0)));
+const svgErrors=report.results.flatMap(s=>Object.entries(s.svgStatus??{}).filter(([,v])=>!v.loaded).map(([slot,v])=>({slot,...v})));
+const pendingSvgs=report.results.flatMap(s=>s.geometry.filter(g=>g.svg&&!s.svgStatus?.[s.id+':'+g.slot]?.loaded).map(g=>({screen:s.id,slot:g.slot})));
+const hash=p=>crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');
+const modifiedSvgs=manifest.filter(a=>a.file.endsWith('.svg')&&hash('assets/figma/'+a.file)!==hash('assets/figma/'+a.file+'data')).map(a=>a.file);
+const summary={screens:report.results.length,viewport:report.results.every(s=>s.width===428&&s.height===926&&s.scale===1)?'428×926 at 1:1':'mixed',runtimeExceptions:report.errors.length,localAssetFiles:manifest.length,designAssetSlots:slots.length,measuredAssetSlots:actual.size,missingSlots:missing,invalidGeometry:invalid,svgErrors,pendingSvgs,modifiedSvgs,pixelPerfectCertified:false,remainingFrames:JSON.parse(fs.readFileSync('design/missing-frames.json','utf8')).length};
+fs.writeFileSync('verification/summary.json',JSON.stringify(summary,null,2));
+console.log(JSON.stringify({...summary,missingSlots:missing.length,invalidGeometry:invalid.length,svgErrors:svgErrors.length,pendingSvgs:pendingSvgs.length,modifiedSvgs:modifiedSvgs.length},null,2));
+if(report.errors.length||missing.length||invalid.length||svgErrors.length||pendingSvgs.length||modifiedSvgs.length)process.exitCode=1;

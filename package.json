@@ -1,0 +1,39 @@
+{
+  "name": "morselup-mobile",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "web": "expo start --web",
+    "typecheck": "tsc --noEmit",
+    "compile-design": "node scripts/compile-design.cjs && node scripts/deduplicate-assets.cjs && node scripts/cache-svg-filters.cjs && node scripts/compile-prototype.cjs",
+    "cache:svg": "node scripts/cache-svg-filters.cjs",
+    "audit:assets": "node scripts/audit-assets.cjs",
+    "verify:android": "node scripts/verify-android.cjs"
+  },
+  "dependencies": {
+    "@expo-google-fonts/inter": "^0.4.2",
+    "@expo-google-fonts/sour-gummy": "^0.4.2",
+    "expo": "~58.0.23",
+    "expo-asset": "~58.0.20",
+    "expo-blur": "~58.0.5",
+    "expo-font": "~58.0.11",
+    "expo-linear-gradient": "~58.0.3",
+    "expo-navigation-bar": "~58.0.4",
+    "expo-status-bar": "~58.0.4",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "react-native": "0.88.1",
+    "react-native-svg": "15.16.0",
+    "react-native-web": "~0.21.4"
+  },
+  "devDependencies": {
+    "@babel/parser": "^7.28.0",
+    "@resvg/resvg-js": "^2.6.2",
+    "@types/react": "~19.3.0",
+    "typescript": "~6.0.3",
+    "ws": "^8.22.1"
+  }
+}

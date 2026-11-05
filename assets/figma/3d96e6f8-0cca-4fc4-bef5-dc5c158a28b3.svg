@@ -1,0 +1,49 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="175" height="27" viewBox="0 0 175 27" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="Uy t&#195;&#173;n t&#225;&#187;&#171; m&#225;&#187;&#153;t &#196;&#145;&#225;&#186;&#191;n n&#196;&#131;m sao" clip-path="url(#clip0_0_6)">
+<g id="Sao uy t&#195;&#173;n">
+<use xlink:href="#stroke0_0_6" fill="#245E45"/>
+<mask id="stroke1_0_6" fill="white">
+<use xlink:href="#stroke0_0_6"/>
+</mask>
+<path d="M13.5 0L16.5309 9.32827H26.3393L18.4042 15.0935L21.4351 24.4217L13.5 18.6565L5.5649 24.4217L8.59584 15.0935L0.660737 9.32827H10.4691L13.5 0Z" stroke-width="3" stroke="#245E45" mask="url(#stroke1_0_6)"/>
+</g>
+<g id="Sao uy t&#195;&#173;n_2">
+<use xlink:href="#stroke2_0_6" fill="#245E45"/>
+<mask id="stroke3_0_6" fill="white">
+<use xlink:href="#stroke2_0_6"/>
+</mask>
+<path d="M50.5 0L53.5309 9.32827H63.3393L55.4042 15.0935L58.4351 24.4217L50.5 18.6565L42.5649 24.4217L45.5958 15.0935L37.6607 9.32827H47.4691L50.5 0Z" stroke-width="3" stroke="#245E45" mask="url(#stroke3_0_6)"/>
+</g>
+<g id="Sao uy t&#195;&#173;n_3">
+<use xlink:href="#stroke4_0_6" fill="#245E45"/>
+<mask id="stroke5_0_6" fill="white">
+<use xlink:href="#stroke4_0_6"/>
+</mask>
+<path d="M87.5 0L90.5309 9.32827H100.339L92.4042 15.0935L95.4351 24.4217L87.5 18.6565L79.5649 24.4217L82.5958 15.0935L74.6607 9.32827H84.4691L87.5 0Z" stroke-width="3" stroke="#245E45" mask="url(#stroke5_0_6)"/>
+</g>
+<g id="Sao uy t&#195;&#173;n_4">
+<use xlink:href="#stroke6_0_6" fill="#245E45"/>
+<mask id="stroke7_0_6" fill="white">
+<use xlink:href="#stroke6_0_6"/>
+</mask>
+<path d="M124.5 0L127.531 9.32827H137.339L129.404 15.0935L132.435 24.4217L124.5 18.6565L116.565 24.4217L119.596 15.0935L111.661 9.32827H121.469L124.5 0Z" stroke-width="3" stroke="#245E45" mask="url(#stroke7_0_6)"/>
+</g>
+<g id="Sao uy t&#195;&#173;n_5">
+<use xlink:href="#stroke8_0_6" fill="#245E45"/>
+<mask id="stroke9_0_6" fill="white">
+<use xlink:href="#stroke8_0_6"/>
+</mask>
+<path d="M161.5 0L164.531 9.32827H174.339L166.404 15.0935L169.435 24.4217L161.5 18.6565L153.565 24.4217L156.596 15.0935L148.661 9.32827H158.469L161.5 0Z" stroke-width="3" stroke="#245E45" mask="url(#stroke9_0_6)"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_0_6">
+<rect width="175" height="27" fill="white"/>
+</clipPath>
+<path id="stroke0_0_6" d="M13.5 0L16.5309 9.32827H26.3393L18.4042 15.0935L21.4351 24.4217L13.5 18.6565L5.5649 24.4217L8.59584 15.0935L0.660737 9.32827H10.4691L13.5 0Z"/>
+<path id="stroke2_0_6" d="M50.5 0L53.5309 9.32827H63.3393L55.4042 15.0935L58.4351 24.4217L50.5 18.6565L42.5649 24.4217L45.5958 15.0935L37.6607 9.32827H47.4691L50.5 0Z"/>
+<path id="stroke4_0_6" d="M87.5 0L90.5309 9.32827H100.339L92.4042 15.0935L95.4351 24.4217L87.5 18.6565L79.5649 24.4217L82.5958 15.0935L74.6607 9.32827H84.4691L87.5 0Z"/>
+<path id="stroke6_0_6" d="M124.5 0L127.531 9.32827H137.339L129.404 15.0935L132.435 24.4217L124.5 18.6565L116.565 24.4217L119.596 15.0935L111.661 9.32827H121.469L124.5 0Z"/>
+<path id="stroke8_0_6" d="M161.5 0L164.531 9.32827H174.339L166.404 15.0935L169.435 24.4217L161.5 18.6565L153.565 24.4217L156.596 15.0935L148.661 9.32827H158.469L161.5 0Z"/>
+</defs>
+</svg>

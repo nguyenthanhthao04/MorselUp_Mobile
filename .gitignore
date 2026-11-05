@@ -1,0 +1,12 @@
+node_modules/
+.expo/
+.idea/
+verification/
+dist/
+web-build/
+
+.env
+.env.*
+!.env.example
+
+*.log
